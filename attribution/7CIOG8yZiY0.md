@@ -4,8 +4,8 @@ title: "preview1 - Video Compilation"
 channel: "tiktok/boutinelosangeles"
 total_cells: 3
 total_clips: 219
+video_url: "https://www.youtube.com/watch?v=7CIOG8yZiY0"
 ---
-
 # preview1 - Video Compilation
 
 **Channel:** tiktok/boutinelosangeles  
