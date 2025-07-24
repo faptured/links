@@ -3,12 +3,14 @@
     --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     --dark-bg: #0a0a0a;
-    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-bg: rgba(255, 255, 255, 0.03);
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.8);
     --text-muted: rgba(255, 255, 255, 0.6);
     --border-glass: rgba(255, 255, 255, 0.1);
-    --shadow-neon: 0 0 40px rgba(102, 126, 234, 0.6);
+    --neon-purple: rgba(102, 126, 234, 0.5);
+    --neon-pink: rgba(245, 87, 108, 0.5);
+    --neon-blue: rgba(79, 172, 254, 0.5);
 }
 
 * {
@@ -22,10 +24,11 @@ body {
     line-height: 1.6;
     color: var(--text-primary);
     background: var(--dark-bg);
-    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
 }
 
-/* Animated background */
+/* Static gradient background */
 body::before {
     content: '';
     position: fixed;
@@ -34,164 +37,125 @@ body::before {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(245, 87, 108, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 40% 40%, rgba(79, 172, 254, 0.1) 0%, transparent 50%);
+        radial-gradient(ellipse at top left, rgba(102, 126, 234, 0.15) 0%, transparent 40%),
+        radial-gradient(ellipse at bottom right, rgba(245, 87, 108, 0.15) 0%, transparent 40%),
+        radial-gradient(ellipse at center, rgba(79, 172, 254, 0.08) 0%, transparent 60%);
     z-index: -1;
-    animation: floatingBg 20s ease-in-out infinite;
-}
-
-@keyframes floatingBg {
-    0%, 100% { transform: translate(0, 0) rotate(0deg); }
-    33% { transform: translate(-20px, -20px) rotate(1deg); }
-    66% { transform: translate(20px, -10px) rotate(-1deg); }
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
-/* Header with gradient and glass effect */
+/* Header with glass effect and neon accents */
 header {
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     border-bottom: 1px solid var(--border-glass);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     position: relative;
-    overflow: hidden;
-}
-
-header::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: var(--primary-gradient);
-    opacity: 0.1;
-    animation: shimmer 3s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-    0%, 100% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
-    50% { transform: translateX(-30%) translateY(-30%) rotate(180deg); }
 }
 
 header h1 {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 2.2rem;
+    font-weight: 700;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    margin-bottom: 0.5rem;
-    letter-spacing: -1px;
-    animation: glow 2s ease-in-out infinite alternate;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.5px;
+    filter: drop-shadow(0 0 30px var(--neon-purple));
 }
 
-@keyframes glow {
-    from { filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.5)); }
-    to { filter: drop-shadow(0 0 30px rgba(102, 126, 234, 0.8)); }
+header h1 a:hover {
+    filter: drop-shadow(0 0 40px var(--neon-purple));
 }
 
 .tagline {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
 /* Main content */
 main {
-    min-height: calc(100vh - 200px);
-    padding: 4rem 0;
+    min-height: calc(100vh - 180px);
+    padding: 3rem 0;
 }
 
-/* Intro section with glass morphism */
+/* Intro section with refined glass morphism */
 .intro {
     background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
     border: 1px solid var(--border-glass);
-    padding: 3rem;
-    border-radius: 20px;
-    margin-bottom: 4rem;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 3rem;
     position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-
-.intro::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: var(--primary-gradient);
-    border-radius: 20px;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.3s ease;
-}
-
-.intro:hover::before {
-    opacity: 0.3;
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .intro h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
     background: var(--secondary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    filter: drop-shadow(0 0 20px var(--neon-pink));
 }
 
 .intro p {
     color: var(--text-secondary);
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 /* Attribution section */
 .attributions h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px var(--neon-blue));
 }
 
-/* Attribution grid with cards */
+/* Attribution grid with refined cards */
 .attribution-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
 }
 
 .attribution-card {
     background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
     border: 1px solid var(--border-glass);
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 16px;
+    padding: 1.5rem;
     text-decoration: none;
     position: relative;
     overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 
+        0 4px 16px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .attribution-card::before {
@@ -201,68 +165,63 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--primary-gradient);
+    background: linear-gradient(135deg, transparent 0%, var(--neon-purple) 100%);
     opacity: 0;
-    transition: opacity 0.4s ease;
-    border-radius: 20px;
+    transition: opacity 0.3s ease;
 }
 
 .attribution-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    border-color: rgba(102, 126, 234, 0.5);
+    transform: translateY(-4px);
+    border-color: var(--neon-purple);
     box-shadow: 
-        0 20px 40px rgba(102, 126, 234, 0.3),
-        0 0 60px rgba(102, 126, 234, 0.1),
-        inset 0 0 20px rgba(255, 255, 255, 0.05);
+        0 8px 32px rgba(102, 126, 234, 0.25),
+        0 0 0 1px var(--neon-purple),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .attribution-card:hover::before {
-    opacity: 0.1;
+    opacity: 0.05;
 }
 
 .attribution-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
     color: var(--text-primary);
     position: relative;
     z-index: 1;
-    transition: all 0.3s ease;
-}
-
-.attribution-card:hover h3 {
-    transform: translateX(5px);
+    font-weight: 600;
 }
 
 .attribution-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    margin: 1.5rem 0;
+    gap: 1rem;
+    margin: 1rem 0;
     position: relative;
     z-index: 1;
 }
 
 .attribution-meta span {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.4rem;
     color: var(--text-secondary);
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-    border: 1px solid var(--border-glass);
-    transition: all 0.3s ease;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.attribution-meta span:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
+.attribution-meta span::before {
+    content: '';
+    display: none;
 }
 
 .attribution-description {
     color: var(--text-muted);
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 1.5;
     position: relative;
     z-index: 1;
 }
@@ -270,79 +229,83 @@ main {
 /* Attribution detail page */
 .attribution-detail {
     background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
     border: 1px solid var(--border-glass);
-    padding: 3rem;
-    border-radius: 20px;
-    margin-top: 2rem;
+    padding: 2.5rem;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .attribution-header {
     border-bottom: 1px solid var(--border-glass);
-    padding-bottom: 2rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .attribution-header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    filter: drop-shadow(0 0 30px var(--neon-purple));
 }
 
 /* Footer */
 footer {
     background: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
     border-top: 1px solid var(--border-glass);
     text-align: center;
-    padding: 3rem 0;
-    margin-top: 4rem;
+    padding: 2rem 0;
+    margin-top: 3rem;
     color: var(--text-muted);
+    font-size: 0.9rem;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     
     .intro h2,
     .attributions h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .attribution-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1.25rem;
     }
     
     .intro,
     .attribution-detail {
-        padding: 2rem;
+        padding: 1.5rem;
     }
 }
 
 /* Loading animation */
 .loading {
     text-align: center;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .spinner {
-    width: 50px;
-    height: 50px;
-    border: 3px solid var(--border-glass);
-    border-top-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--border-glass);
+    border-top-color: var(--neon-purple);
     border-radius: 50%;
-    margin: 0 auto 2rem;
-    background: var(--primary-gradient);
+    margin: 0 auto 1.5rem;
     animation: spin 1s linear infinite;
-    box-shadow: 0 0 30px rgba(102, 126, 234, 0.5);
+    box-shadow: 0 0 20px var(--neon-purple);
 }
 
 @keyframes spin {
@@ -351,7 +314,8 @@ footer {
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -359,12 +323,13 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-gradient);
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-gradient);
+    background: rgba(255, 255, 255, 0.15);
 }
 
 /* Selection styling */
@@ -373,11 +338,11 @@ footer {
     color: var(--text-primary);
 }
 
-/* Additional animations */
-@keyframes fadeInUp {
+/* Subtle animations */
+@keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
@@ -387,9 +352,53 @@ footer {
 
 .intro,
 .attribution-card {
-    animation: fadeInUp 0.6s ease-out;
+    animation: fadeIn 0.5s ease-out;
 }
 
-.attribution-card:nth-child(2) { animation-delay: 0.1s; }
-.attribution-card:nth-child(3) { animation-delay: 0.2s; }
-.attribution-card:nth-child(4) { animation-delay: 0.3s; }
+.attribution-card:nth-child(2) { animation-delay: 0.05s; }
+.attribution-card:nth-child(3) { animation-delay: 0.1s; }
+.attribution-card:nth-child(4) { animation-delay: 0.15s; }
+.attribution-card:nth-child(5) { animation-delay: 0.2s; }
+.attribution-card:nth-child(6) { animation-delay: 0.25s; }
+
+/* Professional hover states */
+a {
+    transition: all 0.2s ease;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Ensure good contrast */
+.attribution-content {
+    color: var(--text-secondary);
+}
+
+/* Professional spacing */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Neon glow effects on hover */
+.attribution-card:hover h3 {
+    filter: drop-shadow(0 0 15px var(--neon-purple));
+}
+
+/* Glass morphism refinements */
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
