@@ -14,16 +14,32 @@ title: Home
         {% assign attribution_pages = site.pages | where_exp: "page", "page.path contains 'attribution/'" | where_exp: "page", "page.path contains '.md'" %}
         {% for page in attribution_pages %}
             {% unless page.path contains 'index' %}
-                <a href="{{ page.url | relative_url }}" class="attribution-card">
-                    <h3>{{ page.title | default: page.name }}</h3>
-                    <div class="attribution-meta">
-                        {% if page.channel %}<span>Channel: {{ page.channel }}</span>{% endif %}
-                        {% if page.total_clips %}<span>{{ page.total_clips }} clips</span>{% endif %}
-                        {% if page.total_cells %}<span>{{ page.total_cells }} cells</span>{% endif %}
+                <a href="{{ page.url | relative_url }}" class="attribution-card" data-video-url="{{ page.video_url }}">
+                    {% if page.video_url %}
+                        {% assign video_id = page.video_url | split: "v=" | last | split: "&" | first %}
+                        {% if page.video_url contains "youtu.be/" %}
+                            {% assign video_id = page.video_url | split: "youtu.be/" | last | split: "?" | first %}
+                        {% endif %}
+                        <img class="video-thumbnail" 
+                             src="https://img.youtube.com/vi/{{ video_id }}/maxresdefault.jpg" 
+                             alt="{{ page.title }}"
+                             loading="lazy">
+                    {% endif %}
+                    <div class="card-content">
+                        <h3 class="card-title">{{ page.title | default: page.name }}</h3>
+                        <div class="attribution-meta">
+                            {% if page.channel %}<span>Channel: {{ page.channel }}</span>{% endif %}
+                            {% if page.total_clips %}<span>{{ page.total_clips }} clips</span>{% endif %}
+                            {% if page.total_cells %}<span>{{ page.total_cells }} cells</span>{% endif %}
+                        </div>
+                        <p class="attribution-description">
+                            {% if page.description %}
+                                {{ page.description | truncate: 100 }}
+                            {% else %}
+                                Click to view detailed attribution information
+                            {% endif %}
+                        </p>
                     </div>
-                    <p class="attribution-description">
-                        Click to view detailed attribution information
-                    </p>
                 </a>
             {% endunless %}
         {% endfor %}
@@ -33,3 +49,28 @@ title: Home
         <p style="text-align: center; margin-top: 2rem; color: #666;">No attribution files found. Add markdown files to the attribution/ directory.</p>
     {% endif %}
 </section>
+
+<script>
+// Enhance attribution cards with YouTube metadata
+document.addEventListener('DOMContentLoaded', async function() {
+    const cards = document.querySelectorAll('.attribution-card[data-video-url]');
+    
+    for (const card of cards) {
+        const videoUrl = card.getAttribute('data-video-url');
+        if (videoUrl) {
+            try {
+                const metadata = await fetchYouTubeMetadata(videoUrl);
+                if (metadata && metadata.title) {
+                    const titleElement = card.querySelector('.card-title');
+                    // Only update if current title looks generic
+                    if (titleElement && (titleElement.textContent.includes('Video Compilation') || titleElement.textContent.includes('Faptured'))) {
+                        titleElement.textContent = metadata.title;
+                    }
+                }
+            } catch (error) {
+                console.error('Error fetching metadata for', videoUrl, error);
+            }
+        }
+    }
+});
+</script>
