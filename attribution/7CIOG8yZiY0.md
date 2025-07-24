@@ -1,6 +1,6 @@
 ---
 layout: attribution
-title: "preview1 - Video Compilation"
+title: "Faptured Video Compilation"
 description: "Fashion and style video compilation featuring 219 TikTok clips from boutinelosangeles showcasing BOUTINELA brand clothing and accessories"
 channel: "tiktok/boutinelosangeles"
 total_cells: 3
@@ -22,82 +22,82 @@ date: 2025-7-25
 ### Clip 1
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/6983008288002706693>  
 **Creator:** boutinelosangeles  
-**Title:** SHIMMER POOL DRESSES ✖️ now available at: <https://www.BOUTINELA.com> #boutinel...  
+**Title:** SHIMMER POOL DRESSES ✖️ now available at: www.BOUTINELA.com #boutinel...  
 
 ### Clip 2
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7137139488576326955>  
 **Creator:** boutinelosangeles  
-**Title:** Babe wearing the pink ombre crew set 💖 shop <https://www.BOUTINELA.com> #boutin...  
+**Title:** Babe wearing the pink ombre crew set 💖 shop www.BOUTINELA.com #boutin...  
 
 ### Clip 3
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138231945191755050>  
 **Creator:** boutinelosangeles  
-**Title:** 40% OFF SALE - use code: LABOR40 // <https://www.BOUTINELA.com> #boutinela #lab...  
+**Title:** 40% OFF SALE - use code: LABOR40 // www.BOUTINELA.com #boutinela #lab...  
 
 ### Clip 4
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138248905719942446>  
 **Creator:** boutinelosangeles  
-**Title:** Shop matching sets now at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop matching sets now at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 5
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138406021185178922>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this one-piece now at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop this one-piece now at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 6
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138881719993716010>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 7
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7140039924165725486>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #chooksla #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #chooksla #boutinelababe   
 
 ### Clip 8
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7140053121639828782>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this ser now at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop this ser now at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 9
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7143972559153794347>  
 **Creator:** boutinelosangeles  
-**Title:** Shop all suits at: <https://www.BOUTINELA.com> #boutinela #boutinelababe  
+**Title:** Shop all suits at: www.BOUTINELA.com #boutinela #boutinelababe  
 
 ### Clip 10
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7144737740314283310>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababes  
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababes  
 
 ### Clip 11
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7153728704299093294>  
 **Creator:** boutinelosangeles  
-**Title:** Shop  <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop  www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 12
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7176371164627930411>  
 **Creator:** boutinelosangeles  
-**Title:** Shop all suits at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop all suits at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 13
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7187131057450405163>  
 **Creator:** boutinelosangeles  
-**Title:** CHOOKSLA spring 23’ out NOW! <https://www.BOUTINELA.com> #boutinela #chooksla   
+**Title:** CHOOKSLA spring 23’ out NOW! www.BOUTINELA.com #boutinela #chooksla   
 
 ### Clip 14
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7192685535587044651>  
 **Creator:** boutinelosangeles  
-**Title:** NEW contrast bow set 😍 shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** NEW contrast bow set 😍 shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 15
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7223510565463870763>  
 **Creator:** boutinelosangeles  
-**Title:** Shop the SUMMER 2023’ GI-BABE collection // <https://www.BOUTINELA.com> #boutin...  
+**Title:** Shop the SUMMER 2023’ GI-BABE collection // www.BOUTINELA.com #boutin...  
 
 ### Clip 16
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7230492374495956266>  
 **Creator:** boutinelosangeles  
-**Title:** Shop the logo print cut out dress now at: <https://www.BOUTINELA.com> #boutinel...  
+**Title:** Shop the logo print cut out dress now at: www.BOUTINELA.com #boutinel...  
 
 ### Clip 17
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7234512749181652266>  
@@ -107,17 +107,17 @@ date: 2025-7-25
 ### Clip 18
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7234620944856255787>  
 **Creator:** boutinelosangeles  
-**Title:** Shop the cut out mini dress at: <https://www.BOUTINELA.com> #boutinela #boutine...  
+**Title:** Shop the cut out mini dress at: www.BOUTINELA.com #boutinela #boutine...  
 
 ### Clip 19
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7271983653876436266>  
 **Creator:** boutinelosangeles  
-**Title:** Shop watercolor print now at: <https://www.BOUTINELA.com> #boutinela #boutinela...  
+**Title:** Shop watercolor print now at: www.BOUTINELA.com #boutinela #boutinela...  
 
 ### Clip 20
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7293341883323977003>  
 **Creator:** boutinelosangeles  
-**Title:** Ombre matching sets 😍✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelab...  
+**Title:** Ombre matching sets 😍✖️ shop www.BOUTINELA.com #boutinela #boutinelab...  
 
 ### Clip 21
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7304320670245080363>  
@@ -127,32 +127,32 @@ date: 2025-7-25
 ### Clip 22
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7354957956305210666>  
 **Creator:** boutinelosangeles  
-**Title:** Laguna blue bikini top & chic 80’s bottom 💙✖️ shop <https://www.BOUTINELA.com> ...  
+**Title:** Laguna blue bikini top & chic 80’s bottom 💙✖️ shop www.BOUTINELA.com ...  
 
 ### Clip 23
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7355615404561091883>  
 **Creator:** boutinelosangeles  
-**Title:** Manhattan black Ringer ser 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Manhattan black Ringer ser 🖤✖️ shop www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 24
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7356430768450751790>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red RINGER set 🌹✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelab...  
+**Title:** Rose red RINGER set 🌹✖️ shop www.BOUTINELA.com #boutinela #boutinelab...  
 
 ### Clip 25
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7357824693874855211>  
 **Creator:** boutinelosangeles  
-**Title:** Onyx shimmer pool dress 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela #boutin...  
+**Title:** Onyx shimmer pool dress 🖤✖️ shop www.BOUTINELA.com #boutinela #boutin...  
 
 ### Clip 26
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7357892907203972395>  
 **Creator:** boutinelosangeles  
-**Title:** Sold orange RINGER set 🧡✖️ shop <https://www.BOUTINELA.com> #boutinela #boutine...  
+**Title:** Sold orange RINGER set 🧡✖️ shop www.BOUTINELA.com #boutinela #boutine...  
 
 ### Clip 27
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7358495901901688110>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red V-cut top & minimal bottom ❤️✖️ shop <https://www.BOUTINELA.com> #bout...  
+**Title:** Rose red V-cut top & minimal bottom ❤️✖️ shop www.BOUTINELA.com #bout...  
 
 ### Clip 28
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7360829726505618730>  
@@ -162,17 +162,17 @@ date: 2025-7-25
 ### Clip 29
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7361854294821326123>  
 **Creator:** boutinelosangeles  
-**Title:** Wild orange RETRO one-piece 🧡✖️ shop <https://www.BOUTINELA.com> #boutinela #bo...  
+**Title:** Wild orange RETRO one-piece 🧡✖️ shop www.BOUTINELA.com #boutinela #bo...  
 
 ### Clip 30
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7362682881518488874>  
 **Creator:** boutinelosangeles  
-**Title:** Hit pink CREW set 🩷✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Hit pink CREW set 🩷✖️ shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 31
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7363802664355761451>  
 **Creator:** boutinelosangeles  
-**Title:** Manhattan black TWIST set 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Manhattan black TWIST set 🖤✖️ shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 32
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7363815378373365035>  
@@ -182,17 +182,17 @@ date: 2025-7-25
 ### Clip 33
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7364267805979446574>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop <https://www.BOUTINELA.com> #b...  
+**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop www.BOUTINELA.com #b...  
 
 ### Clip 34
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7364935100200602926>  
 **Creator:** boutinelosangeles  
-**Title:** Wold orange RINGER set 🍊✖️ shop <https://www.BOUTINELA.com> #boutinela #boutine...  
+**Title:** Wold orange RINGER set 🍊✖️ shop www.BOUTINELA.com #boutinela #boutine...  
 
 ### Clip 35
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7368146664877493546>  
 **Creator:** boutinelosangeles  
-**Title:** Wild laguna contrast bow set 🧡✖️💙 shop #chooksla at <https://www.BOUTINELA.com>...  
+**Title:** Wild laguna contrast bow set 🧡✖️💙 shop #chooksla at www.BOUTINELA.com...  
 
 ### Clip 36
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7369930035089771818>  
@@ -202,22 +202,22 @@ date: 2025-7-25
 ### Clip 37
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372337580408327467>  
 **Creator:** boutinelosangeles  
-**Title:** Purple COAST set 💜✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Purple COAST set 💜✖️ shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 38
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372658757458988334>  
 **Creator:** boutinelosangeles  
-**Title:** Bay red RETRO one-piece ❤️😍✖️ shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Bay red RETRO one-piece ❤️😍✖️ shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 39
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372744585094663467>  
 **Creator:** boutinelosangeles  
-**Title:** Taffy ounk RETRO one-piece 🌸✖️ shop <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Taffy ounk RETRO one-piece 🌸✖️ shop www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 40
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372806799742831914>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white v-cut top & minimal bottom 🤍✖️😍 shop <https://www.BOUTINELA.com> #...  
+**Title:** Venice white v-cut top & minimal bottom 🤍✖️😍 shop www.BOUTINELA.com #...  
 
 ### Clip 41
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7378149442744044831>  
@@ -237,7 +237,7 @@ date: 2025-7-25
 ### Clip 44
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7380507553165233439>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop <https://www.BOUTINELA.com> #b...  
+**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop www.BOUTINELA.com #b...  
 
 ### Clip 45
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7385316996470148382>  
@@ -252,7 +252,7 @@ date: 2025-7-25
 ### Clip 47
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7389314778369428767>  
 **Creator:** boutinelosangeles  
-**Title:** Black coast set 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Black coast set 🖤✖️ shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 48
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7401923267977579807>  
@@ -287,7 +287,7 @@ date: 2025-7-25
 ### Clip 54
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7425722116785458462>  
 **Creator:** boutinelosangeles  
-**Title:** Sky blue off-shore one-piece 💙✖️ shop <https://www.BOUTINELA.com> #boutinela #b...  
+**Title:** Sky blue off-shore one-piece 💙✖️ shop www.BOUTINELA.com #boutinela #b...  
 
 ### Clip 55
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7425663074268417311>  
@@ -312,7 +312,7 @@ date: 2025-7-25
 ### Clip 59
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7471414181720247595>  
 **Creator:** boutinelosangeles  
-**Title:** Dusty pink RINGER set 🌸✖️ <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Dusty pink RINGER set 🌸✖️ www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 60
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7481355536315977006>  
@@ -322,17 +322,17 @@ date: 2025-7-25
 ### Clip 61
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7489450641673440558>  
 **Creator:** boutinelosangeles  
-**Title:** Silver chrome ROUTE set 😍✖️ shop <https://www.BOUTINELA.com> #boutinela #boutin...  
+**Title:** Silver chrome ROUTE set 😍✖️ shop www.BOUTINELA.com #boutinela #boutin...  
 
 ### Clip 62
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7491069151696538923>  
 **Creator:** boutinelosangeles  
-**Title:** Manhattan black CLUB set 🖤✖️😍 shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Manhattan black CLUB set 🖤✖️😍 shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 63
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7491845402967166254>  
 **Creator:** boutinelosangeles  
-**Title:** Cocoa brown OFF-SHORE one-piece 🤎✖️😍 shop <https://www.BOUTINELA.com> #boutinel...  
+**Title:** Cocoa brown OFF-SHORE one-piece 🤎✖️😍 shop www.BOUTINELA.com #boutinel...  
 
 ### Clip 64
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7493155404789140778>  
@@ -362,7 +362,7 @@ date: 2025-7-25
 ### Clip 69
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7515577603512601898>  
 **Creator:** boutinelosangeles  
-**Title:** SHOP OUR POOL DRESSES ✖️ <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** SHOP OUR POOL DRESSES ✖️ www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 70
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7516239611262209326>  
@@ -382,14 +382,14 @@ date: 2025-7-25
 ### Clip 73
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7525929786582043959>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red TRAIL set ❤️✖️😍 shop <https://www.BOUTINELA.com> #boutinela #boutinela...  
+**Title:** Rose red TRAIL set ❤️✖️😍 shop www.BOUTINELA.com #boutinela #boutinela...  
 
 ## Cell 2 (73 clips)
 
 ### Clip 1
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7015010159017692421>  
 **Creator:** boutinelosangeles  
-**Title:** OCEANIC ANGLE set 💚💙 see more at: <https://www.BOUTINELA.com> #boutinela #bouti...  
+**Title:** OCEANIC ANGLE set 💚💙 see more at: www.BOUTINELA.com #boutinela #bouti...  
 
 ### Clip 2
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7015257163140500741>  
@@ -404,27 +404,27 @@ date: 2025-7-25
 ### Clip 4
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7056556741093231918>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe @lollylizard  
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe @lollylizard  
 
 ### Clip 5
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7120322159007862059>  
 **Creator:** boutinelosangeles  
-**Title:** CAMEELI crop top x boy shorts set 😍 shop <https://www.BOUTINELA.com> #cameeli #...  
+**Title:** CAMEELI crop top x boy shorts set 😍 shop www.BOUTINELA.com #cameeli #...  
 
 ### Clip 6
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7125241847881927979>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this one-piece and more now at: <https://www.BOUTINELA.com> #boutinela #bo...  
+**Title:** Shop this one-piece and more now at: www.BOUTINELA.com #boutinela #bo...  
 
 ### Clip 7
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138939567599799598>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 8
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7140327026883398954>  
 **Creator:** boutinelosangeles  
-**Title:** Shop all suits at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop all suits at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 9
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7159290853226237227>  
@@ -434,42 +434,42 @@ date: 2025-7-25
 ### Clip 10
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7192298494579854635>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red matching set ❤️ shop <https://www.BOUTINELA.com> #boutinela #boutinela...  
+**Title:** Rose red matching set ❤️ shop www.BOUTINELA.com #boutinela #boutinela...  
 
 ### Clip 11
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7211225094390107434>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 12
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7218639872859344174>  
 **Creator:** boutinelosangeles  
-**Title:** Manhatan black matching set 🖤 shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Manhatan black matching set 🖤 shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 13
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7234514354547477806>  
 **Creator:** boutinelosangeles  
-**Title:** Shop bikinis this summer at: <https://www.BOUTINELA.com> #boutinela #boutinelab...  
+**Title:** Shop bikinis this summer at: www.BOUTINELA.com #boutinela #boutinelab...  
 
 ### Clip 14
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7255080459217112366>  
 **Creator:** boutinelosangeles  
-**Title:** Shop your #boutinela suits this summer 😍 <https://www.BOUTINELA.com> #boutinela...  
+**Title:** Shop your #boutinela suits this summer 😍 www.BOUTINELA.com #boutinela...  
 
 ### Clip 15
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7255289307538263338>  
 **Creator:** boutinelosangeles  
-**Title:** Bikini top & chic 80’s bottom // shop <https://www.BOUTINELA.com> #boutinela #b...  
+**Title:** Bikini top & chic 80’s bottom // shop www.BOUTINELA.com #boutinela #b...  
 
 ### Clip 16
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7255822076446002478>  
 **Creator:** boutinelosangeles  
-**Title:** Shop rose red matching suits now at: <https://www.BOUTINELA.com> #boutinela #bo...  
+**Title:** Shop rose red matching suits now at: www.BOUTINELA.com #boutinela #bo...  
 
 ### Clip 17
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7281320743684623659>  
 **Creator:** boutinelosangeles  
-**Title:** Cyan hoop top & island bottom ✖️ shop at: <https://www.BOUTINELA.com> #boutinel...  
+**Title:** Cyan hoop top & island bottom ✖️ shop at: www.BOUTINELA.com #boutinel...  
 
 ### Clip 18
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7305202305232686382>  
@@ -494,17 +494,17 @@ date: 2025-7-25
 ### Clip 22
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7359223327124147498>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red reverse top & resort bottom ❤️😍✖️ shop <https://www.BOUTINELA.com> #bo...  
+**Title:** Rose red reverse top & resort bottom ❤️😍✖️ shop www.BOUTINELA.com #bo...  
 
 ### Clip 23
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7361183693874007339>  
 **Creator:** boutinelosangeles  
-**Title:** Crystal shimmer pool dress ✨✖️ shop <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Crystal shimmer pool dress ✨✖️ shop www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 24
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7362573308400897322>  
 **Creator:** boutinelosangeles  
-**Title:** Manhattn black RADAR one-piece 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela ...  
+**Title:** Manhattn black RADAR one-piece 🖤✖️ shop www.BOUTINELA.com #boutinela ...  
 
 ### Clip 25
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7362596232365165867>  
@@ -514,7 +514,7 @@ date: 2025-7-25
 ### Clip 26
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7363771132673035563>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop <https://www.BOUTINELA.com> #b...  
+**Title:** Venice white v-cut top & minimal bottom 🤍✖️ shop www.BOUTINELA.com #b...  
 
 ### Clip 27
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7364880184673275182>  
@@ -524,27 +524,27 @@ date: 2025-7-25
 ### Clip 28
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7370154429955280171>  
 **Creator:** boutinelosangeles  
-**Title:** Sage pink contrast bow #chooksla set 😍✖️ shop <https://www.BOUTINELA.com> #bout...  
+**Title:** Sage pink contrast bow #chooksla set 😍✖️ shop www.BOUTINELA.com #bout...  
 
 ### Clip 29
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372284035134917930>  
 **Creator:** boutinelosangeles  
-**Title:** Black lace trim set 🖤✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelab...  
+**Title:** Black lace trim set 🖤✖️ shop www.BOUTINELA.com #boutinela #boutinelab...  
 
 ### Clip 30
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372574127594491182>  
 **Creator:** boutinelosangeles  
-**Title:** Manhattan black v-cut top & minimal bottom 🖤✖️ shop <https://www.BOUTINELA.com>...  
+**Title:** Manhattan black v-cut top & minimal bottom 🖤✖️ shop www.BOUTINELA.com...  
 
 ### Clip 31
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372402606347521322>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red RETRO one-piece ❤️✖️ shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Rose red RETRO one-piece ❤️✖️ shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 32
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7373276486012308778>  
 **Creator:** boutinelosangeles  
-**Title:** Gold dust shimmer pool dress 😍✨✖️ shop at <https://www.BOUTINELA.com> #boutinel...  
+**Title:** Gold dust shimmer pool dress 😍✨✖️ shop at www.BOUTINELA.com #boutinel...  
 
 ### Clip 33
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7374162102128332075>  
@@ -554,7 +554,7 @@ date: 2025-7-25
 ### Clip 34
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7376789231273790762>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red PETITE set 🌹✖️😍❤️ shop <https://www.BOUTINELA.com> #boutinela #boutine...  
+**Title:** Rose red PETITE set 🌹✖️😍❤️ shop www.BOUTINELA.com #boutinela #boutine...  
 
 ### Clip 35
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7378216738921483550>  
@@ -564,12 +564,12 @@ date: 2025-7-25
 ### Clip 36
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7378122491295845663>  
 **Creator:** boutinelosangeles  
-**Title:** Hot pink crew top & two strap bottom 🩷✖️ shop <https://www.BOUTINELA.com> #bout...  
+**Title:** Hot pink crew top & two strap bottom 🩷✖️ shop www.BOUTINELA.com #bout...  
 
 ### Clip 37
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7380001530583321886>  
 **Creator:** boutinelosangeles  
-**Title:** Wild orange bikini top & resort bottom 🍊😍✖️ <https://www.BOUTINELA.com> #boutin...  
+**Title:** Wild orange bikini top & resort bottom 🍊😍✖️ www.BOUTINELA.com #boutin...  
 
 ### Clip 38
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7382578316328422687>  
@@ -584,7 +584,7 @@ date: 2025-7-25
 ### Clip 40
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7386093915591413022>  
 **Creator:** boutinelosangeles  
-**Title:** Bubblegum shimmer pool dress 💕🩷✖️ shop <https://www.BOUTINELA.com> #boutinela #...  
+**Title:** Bubblegum shimmer pool dress 💕🩷✖️ shop www.BOUTINELA.com #boutinela #...  
 
 ### Clip 41
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7386284463883423007>  
@@ -619,7 +619,7 @@ date: 2025-7-25
 ### Clip 47
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7406074045931801886>  
 **Creator:** boutinelosangeles  
-**Title:** Bubblegum shimmer pool dress 🌸✖️☀️ shop <https://www.BOUTINELA.com> #boutinela ...  
+**Title:** Bubblegum shimmer pool dress 🌸✖️☀️ shop www.BOUTINELA.com #boutinela ...  
 
 ### Clip 48
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7409725170816011551>  
@@ -649,7 +649,7 @@ date: 2025-7-25
 ### Clip 53
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7418957075360812319>  
 **Creator:** boutinelosangeles  
-**Title:** Wild orange bikinj top & chic 80’s bottom 🧡✖️😍 shop <https://www.BOUTINELA.com>...  
+**Title:** Wild orange bikinj top & chic 80’s bottom 🧡✖️😍 shop www.BOUTINELA.com...  
 
 ### Clip 54
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7424281197653576990>  
@@ -694,7 +694,7 @@ date: 2025-7-25
 ### Clip 62
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7480386638263176494>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red SLENDER BOW set ❤️✖️😍 shop <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Rose red SLENDER BOW set ❤️✖️😍 shop www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 63
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7488133198329761067>  
@@ -739,12 +739,12 @@ date: 2025-7-25
 ### Clip 71
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7524033028327312653>  
 **Creator:** boutinelosangeles  
-**Title:** Shop 40% OFF site wide - <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop 40% OFF site wide - www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 72
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7524723505586392333>  
 **Creator:** boutinelosangeles  
-**Title:** Shop PINE GREEN sets 💚✖️😍 <https://www.BOUTINELA.com> #boutinela #boutinelasumm...  
+**Title:** Shop PINE GREEN sets 💚✖️😍 www.BOUTINELA.com #boutinela #boutinelasumm...  
 
 ### Clip 73
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7527297255477382455>  
@@ -761,12 +761,12 @@ date: 2025-7-25
 ### Clip 2
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7003063806494625029>  
 **Creator:** boutinelosangeles  
-**Title:** SHIMMER SHIMMER ✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababes  
+**Title:** SHIMMER SHIMMER ✖️ shop www.BOUTINELA.com #boutinela #boutinelababes  
 
 ### Clip 3
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7061006800740519214>  
 **Creator:** boutinelosangeles  
-**Title:** Shop exclusively at: <https://www.BOUTINELA.com> #boutinela #boutinelababe  
+**Title:** Shop exclusively at: www.BOUTINELA.com #boutinela #boutinelababe  
 
 ### Clip 4
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7061069534907911470>  
@@ -781,52 +781,52 @@ date: 2025-7-25
 ### Clip 6
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7120399329445072170>  
 **Creator:** boutinelosangeles  
-**Title:** Shop #cameeli sets now at: <https://www.BOUTINELA.com> #boutinela  
+**Title:** Shop #cameeli sets now at: www.BOUTINELA.com #boutinela  
 
 ### Clip 7
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7123755259473792299>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this HOT PINK set now at: <https://www.BOUTINELA.com> #BOUTINELA #BOUTINEL...  
+**Title:** Shop this HOT PINK set now at: www.BOUTINELA.com #BOUTINELA #BOUTINEL...  
 
 ### Clip 8
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7124650888026770734>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this set now at: <https://www.BOUTINELA.com> #boutinela #boutinelababe  
+**Title:** Shop this set now at: www.BOUTINELA.com #boutinela #boutinelababe  
 
 ### Clip 9
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7124538284033772843>  
 **Creator:** boutinelosangeles  
-**Title:** #cameeli crop top x boy shorts set 🤍🤎 shop at: <https://www.BOUTINELA.com> #bou...  
+**Title:** #cameeli crop top x boy shorts set 🤍🤎 shop at: www.BOUTINELA.com #bou...  
 
 ### Clip 10
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138405373580463406>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this set at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop this set at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 11
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7138274467289107758>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 12
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7140380137748434218>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this set at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop this set at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 13
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7141777889393052974>  
 **Creator:** boutinelosangeles  
-**Title:** Shop this set at: <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop this set at: www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 14
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7145237747328945454>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababes   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababes   
 
 ### Clip 15
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7186662237795339562>  
 **Creator:** boutinelosangeles  
-**Title:** #boutinelababes 😍 ahop mayching suits at: <https://www.BOUTINELA.com> #boutinela   
+**Title:** #boutinelababes 😍 ahop mayching suits at: www.BOUTINELA.com #boutinela   
 
 ### Clip 16
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7190076642016890155>  
@@ -836,12 +836,12 @@ date: 2025-7-25
 ### Clip 17
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7247519059057675563>  
 **Creator:** boutinelosangeles  
-**Title:** Shop the shimmer pool dress now at: <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Shop the shimmer pool dress now at: www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 18
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7293523688601685291>  
 **Creator:** boutinelosangeles  
-**Title:** Shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 19
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7335896367920958762>  
@@ -851,22 +851,22 @@ date: 2025-7-25
 ### Clip 20
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7339617411466939691>  
 **Creator:** boutinelosangeles  
-**Title:** Blush pink bikini top & chic 80’s bottom 🌸✖️ <https://www.BOUTINELA.com> #bouti...  
+**Title:** Blush pink bikini top & chic 80’s bottom 🌸✖️ www.BOUTINELA.com #bouti...  
 
 ### Clip 21
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7354958831417396522>  
 **Creator:** boutinelosangeles  
-**Title:** Lahuna bkue bikini top & beachy bottom 💙✖️ shop <https://www.BOUTINELA.com> #bo...  
+**Title:** Lahuna bkue bikini top & beachy bottom 💙✖️ shop www.BOUTINELA.com #bo...  
 
 ### Clip 22
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7356297663152786731>  
 **Creator:** boutinelosangeles  
-**Title:** Sky blue TWIST set 🩵✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Sky blue TWIST set 🩵✖️ shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 23
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7356824130328579370>  
 **Creator:** boutinelosangeles  
-**Title:** Hot pink Petite set 🩷✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelab...  
+**Title:** Hot pink Petite set 🩷✖️ shop www.BOUTINELA.com #boutinela #boutinelab...  
 
 ### Clip 24
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7357040225375440174>  
@@ -876,42 +876,42 @@ date: 2025-7-25
 ### Clip 25
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7357002877736340778>  
 **Creator:** boutinelosangeles  
-**Title:** Valley green reverse top & resort bottom ✖️😍 shop <https://www.BOUTINELA.com> #...  
+**Title:** Valley green reverse top & resort bottom ✖️😍 shop www.BOUTINELA.com #...  
 
 ### Clip 26
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7357116008760347946>  
 **Creator:** boutinelosangeles  
-**Title:** Wild orange RINGER set 🍊✖️ shop at: <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Wild orange RINGER set 🍊✖️ shop at: www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 27
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7358471648116297002>  
 **Creator:** boutinelosangeles  
-**Title:** Valley green reverse top & resort bottom 😍✖️ shop <https://www.BOUTINELA.com> #...  
+**Title:** Valley green reverse top & resort bottom 😍✖️ shop www.BOUTINELA.com #...  
 
 ### Clip 28
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7358902152192052526>  
 **Creator:** boutinelosangeles  
-**Title:** Laguna blue bikini top & beachy bottom 💙✖️ shop <https://www.BOUTINELA.com> #bo...  
+**Title:** Laguna blue bikini top & beachy bottom 💙✖️ shop www.BOUTINELA.com #bo...  
 
 ### Clip 29
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7363090988560141614>  
 **Creator:** boutinelosangeles  
-**Title:** Slate blue bikini top & chic 80’s bottom 😍✖️ shop <https://www.BOUTINELA.com> #...  
+**Title:** Slate blue bikini top & chic 80’s bottom 😍✖️ shop www.BOUTINELA.com #...  
 
 ### Clip 30
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7364037039949417774>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white SAIL set 🤍✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinel...  
+**Title:** Venice white SAIL set 🤍✖️ shop www.BOUTINELA.com #boutinela #boutinel...  
 
 ### Clip 31
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7366624284590034219>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white SAIL set 🤍✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinel...  
+**Title:** Venice white SAIL set 🤍✖️ shop www.BOUTINELA.com #boutinela #boutinel...  
 
 ### Clip 32
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7368687106064944430>  
 **Creator:** boutinelosangeles  
-**Title:** Venice white RETRO one-piece 🤍✖️ shop <https://www.BOUTINELA.com> #boutinela #b...  
+**Title:** Venice white RETRO one-piece 🤍✖️ shop www.BOUTINELA.com #boutinela #b...  
 
 ### Clip 33
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372306830623558954>  
@@ -921,12 +921,12 @@ date: 2025-7-25
 ### Clip 34
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7372621395668274475>  
 **Creator:** boutinelosangeles  
-**Title:** Shop shimmer pool dresses now at: <https://www.BOUTINELA.com> #boutinela #bouti...  
+**Title:** Shop shimmer pool dresses now at: www.BOUTINELA.com #boutinela #bouti...  
 
 ### Clip 35
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7373747810270727467>  
 **Creator:** boutinelosangeles  
-**Title:** Crystal shimmer pool dress ✖️ shop <https://www.BOUTINELA.com> #boutinela #bout...  
+**Title:** Crystal shimmer pool dress ✖️ shop www.BOUTINELA.com #boutinela #bout...  
 
 ### Clip 36
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7374454268188757290>  
@@ -951,12 +951,12 @@ date: 2025-7-25
 ### Clip 40
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7378141944733633823>  
 **Creator:** boutinelosangeles  
-**Title:** NEW! Lover’s stars bikini top & one-string 😍✖️ shop <https://www.BOUTINELA.com>...  
+**Title:** NEW! Lover’s stars bikini top & one-string 😍✖️ shop www.BOUTINELA.com...  
 
 ### Clip 41
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7380380521458584863>  
 **Creator:** boutinelosangeles  
-**Title:** Plum bikini top & chic 80’s bottom ♥️✖️ shop <https://www.BOUTINELA.com> #bouti...  
+**Title:** Plum bikini top & chic 80’s bottom ♥️✖️ shop www.BOUTINELA.com #bouti...  
 
 ### Clip 42
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7389013601765379358>  
@@ -971,22 +971,22 @@ date: 2025-7-25
 ### Clip 44
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7399839635976785183>  
 **Creator:** boutinelosangeles  
-**Title:** Cyan blue pores RETRO one-piece 😍✖️  shop <https://www.BOUTINELA.com> #boutinel...  
+**Title:** Cyan blue pores RETRO one-piece 😍✖️  shop www.BOUTINELA.com #boutinel...  
 
 ### Clip 45
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7401597531588660511>  
 **Creator:** boutinelosangeles  
-**Title:** CHROME collection is OUT NOW! 💕🩷✖️ shop <https://www.BOUTINELA.com> #boutinela ...  
+**Title:** CHROME collection is OUT NOW! 💕🩷✖️ shop www.BOUTINELA.com #boutinela ...  
 
 ### Clip 46
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7403404044091280670>  
 **Creator:** boutinelosangeles  
-**Title:** Laguna blue TWIST set 💙✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinel...  
+**Title:** Laguna blue TWIST set 💙✖️ shop www.BOUTINELA.com #boutinela #boutinel...  
 
 ### Clip 47
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7404308111420378398>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red matching sets ❤️✖️😍 shop at: <https://www.BOUTINELA.com> #boutinela #b...  
+**Title:** Rose red matching sets ❤️✖️😍 shop at: www.BOUTINELA.com #boutinela #b...  
 
 ### Clip 48
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7404692612675833118>  
@@ -1021,7 +1021,7 @@ date: 2025-7-25
 ### Clip 54
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7413811853467323679>  
 **Creator:** boutinelosangeles  
-**Title:** Bubblegum shimmer petite set 💕🌸✖️ shop <https://www.BOUTINELA.com> #boutinela #...  
+**Title:** Bubblegum shimmer petite set 💕🌸✖️ shop www.BOUTINELA.com #boutinela #...  
 
 ### Clip 55
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7424510078029548830>  
@@ -1071,12 +1071,12 @@ date: 2025-7-25
 ### Clip 64
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7461696225167904046>  
 **Creator:** boutinelosangeles  
-**Title:** Blush pink front-tie one-piece 🌸😍✖️ shop <https://www.BOUTINELA.com> #boutinela...  
+**Title:** Blush pink front-tie one-piece 🌸😍✖️ shop www.BOUTINELA.com #boutinela...  
 
 ### Clip 65
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7480153552715779370>  
 **Creator:** boutinelosangeles  
-**Title:** White & taggy pink ribbed pool dresses 🤍✖️🩷 shop <https://www.BOUTINELA.com> #b...  
+**Title:** White & taggy pink ribbed pool dresses 🤍✖️🩷 shop www.BOUTINELA.com #b...  
 
 ### Clip 66
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7488043423522377006>  
@@ -1091,22 +1091,22 @@ date: 2025-7-25
 ### Clip 68
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7489149921476562218>  
 **Creator:** boutinelosangeles  
-**Title:** Rose red SLENDER BOW set ❤️✖️😍 shop <https://www.BOUTINELA.com> #boutinela #bou...  
+**Title:** Rose red SLENDER BOW set ❤️✖️😍 shop www.BOUTINELA.com #boutinela #bou...  
 
 ### Clip 69
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7505926483035082027>  
 **Creator:** boutinelosangeles  
-**Title:** Matching sets shop <https://www.BOUTINELA.com> #boutinela #boutinelababe #bouti...  
+**Title:** Matching sets shop www.BOUTINELA.com #boutinela #boutinelababe #bouti...  
 
 ### Clip 70
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7514027023527005486>  
 **Creator:** boutinelosangeles  
-**Title:** Slate blue ribbed POOL dress 🩵✖️😍 shop <https://www.BOUTINELA.com> #boutinela #...  
+**Title:** Slate blue ribbed POOL dress 🩵✖️😍 shop www.BOUTINELA.com #boutinela #...  
 
 ### Clip 71
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7521222359257255182>  
 **Creator:** boutinelosangeles  
-**Title:** Sky blue FORM set 🩵😍✖️ shop <https://www.BOUTINELA.com> #boutinela #boutinelababe   
+**Title:** Sky blue FORM set 🩵😍✖️ shop www.BOUTINELA.com #boutinela #boutinelababe   
 
 ### Clip 72
 **URL:** <https://www.tiktok.com/@boutinelosangeles/video/7525852244873366798>  
