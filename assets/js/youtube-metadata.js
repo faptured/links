@@ -66,19 +66,9 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
         }
     }
-    
-    // For the main attribution grid, enhance cards with YouTube data
-    const attributionCards = document.querySelectorAll('.attribution-card');
-    for (const card of attributionCards) {
-        const link = card.getAttribute('href');
-        if (link && link.includes('/attribution/')) {
-            // This would require server-side processing or a different approach
-            // as we can't easily get the video URL from just the card
-        }
-    }
 });
 
-// Helper function to create attribution file template
+// Helper function to create attribution file template (used by create-attribution.html)
 function generateAttributionTemplate(videoUrl) {
     const videoId = extractVideoId(videoUrl);
     const date = new Date().toISOString().split('T')[0];
@@ -99,68 +89,3 @@ This page will be automatically enhanced with YouTube metadata when loaded.
 
 [Add your attribution content here]`;
 }
-
-// Auto-process links to make them clickable
-function processLinks() {
-    // Get all text nodes in attribution content
-    const contentElements = document.querySelectorAll('.attribution-content p, .attribution-content li');
-    
-    contentElements.forEach(element => {
-        // Skip if element already has processed links
-        if (element.querySelector('a')) return;
-        
-        // Regular expression to match URLs
-        const urlRegex = /(https?:\/\/[^\s<]+)/g;
-        
-        // Process the HTML content
-        let html = element.innerHTML;
-        html = html.replace(urlRegex, (url) => {
-            // Clean up the URL (remove trailing punctuation)
-            const cleanUrl = url.replace(/[.,;:!?]+$/, '');
-            return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer">${cleanUrl}</a>`;
-        });
-        
-        element.innerHTML = html;
-    });
-    
-    // Also process any plain text URLs in the content
-    const allTextNodes = [];
-    const walker = document.createTreeWalker(
-        document.querySelector('.attribution-content'),
-        NodeFilter.SHOW_TEXT,
-        null,
-        false
-    );
-    
-    let node;
-    while (node = walker.nextNode()) {
-        if (node.nodeValue.match(urlRegex) && !node.parentElement.matches('a, script, style')) {
-            allTextNodes.push(node);
-        }
-    }
-    
-    allTextNodes.forEach(textNode => {
-        const span = document.createElement('span');
-        span.innerHTML = textNode.nodeValue.replace(urlRegex, (url) => {
-            const cleanUrl = url.replace(/[.,;:!?]+$/, '');
-            return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer">${cleanUrl}</a>`;
-        });
-        textNode.parentNode.replaceChild(span, textNode);
-    });
-}
-
-// Call processLinks after content is loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Wait a bit for dynamic content to load
-    setTimeout(processLinks, 1000);
-    
-    // Also process links after YouTube metadata is loaded
-    const observer = new MutationObserver(() => {
-        processLinks();
-    });
-    
-    const attributionContent = document.querySelector('.attribution-content');
-    if (attributionContent) {
-        observer.observe(attributionContent, { childList: true, subtree: true });
-    }
-});

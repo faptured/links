@@ -1,0 +1,20 @@
+<!-- Simple CSS to make all external links open in new tab -->
+<style>
+/* Make all external links in attribution content open in new tab */
+.attribution-content a[href^="http"]:not([href*="faptured.github.io"]) {
+    cursor: pointer;
+}
+</style>
+
+<script>
+// Lightweight script to add target="_blank" to external links
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.attribution-content a[href^="http"]');
+    links.forEach(link => {
+        if (!link.hostname.includes('faptured.github.io')) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+});
+</script>

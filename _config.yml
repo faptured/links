@@ -20,6 +20,15 @@ social:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  # Auto-convert URLs to links
+  auto_link: true
+  # Parse markdown in HTML blocks
+  parse_block_html: true
+
 plugins:
   - jekyll-relative-links
   - jekyll-sitemap
