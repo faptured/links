@@ -1,13 +1,29 @@
 title: Attribution Links
-description: Content Attribution Repository
+description: Content Attribution Repository - Comprehensive attribution information for video compilations and creative content
 theme: null
 baseurl: "/links"
 url: "https://faptured.github.io"
+
+# SEO Settings
+lang: en_US
+author:
+  name: Attribution Links
+  twitter: faptured
+twitter:
+  username: faptured
+  card: summary_large_image
+logo: /assets/images/logo.png
+social:
+  name: Attribution Links
+  links:
+    - https://github.com/faptured/links
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Include attribution files
 include:
@@ -26,3 +42,8 @@ defaults:
       type: "pages"
     values:
       layout: "attribution"
+      image: /assets/images/attribution-default.png
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-og.png

@@ -1,0 +1,136 @@
+<!-- SEO Meta Tags -->
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="attribution, content creator, video compilation, tiktok, youtube, {% if page.channel %}{{ page.channel }}, {% endif %}{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}">
+<meta name="author" content="{{ site.author.name }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{% if page.video_url %}video.other{% else %}website{% endif %}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.video_url %}https://img.youtube.com/vi/{{ page.video_url | split: 'v=' | last | split: '&' | first }}/maxresdefault.jpg{% elsif page.image %}{{ page.image | absolute_url }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/default-og.png{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="{{ site.lang | default: 'en_US' }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="{% if page.video_url %}player{% else %}summary_large_image{% endif %}">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
+<meta property="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="twitter:image" content="{% if page.video_url %}https://img.youtube.com/vi/{{ page.video_url | split: 'v=' | last | split: '&' | first }}/maxresdefault.jpg{% elsif page.image %}{{ page.image | absolute_url }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/default-og.png{% endif %}">
+{% if site.twitter.username %}<meta name="twitter:site" content="@{{ site.twitter.username }}">{% endif %}
+
+<!-- Video Meta Tags -->
+{% if page.video_url %}
+<meta property="og:video" content="{{ page.video_url }}">
+<meta property="og:video:type" content="text/html">
+<meta property="og:video:width" content="1280">
+<meta property="og:video:height" content="720">
+{% endif %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{% if page.layout == "attribution" %}
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ page.title | default: page.name }}",
+  "description": "Attribution information for {{ page.title | default: 'content compilation' }}",
+  "url": "{{ page.url | absolute_url }}",
+  {% if page.video_url %}
+  "video": {
+    "@type": "VideoObject",
+    "name": "{{ page.title }}",
+    "description": "{{ page.title }} - Content compilation with {{ page.total_clips | default: 'multiple' }} clips",
+    "thumbnailUrl": "https://img.youtube.com/vi/{{ page.video_url | split: 'v=' | last | split: '&' | first }}/maxresdefault.jpg",
+    "uploadDate": "{{ page.date | default: site.time | date_to_xmlschema }}",
+    "contentUrl": "{{ page.video_url }}",
+    "embedUrl": "https://www.youtube.com/embed/{{ page.video_url | split: 'v=' | last | split: '&' | first }}",
+    {% if page.channel %}
+    "creator": {
+      "@type": "Organization",
+      "name": "{{ page.channel }}"
+    },
+    {% endif %}
+    "duration": "PT10M"
+  },
+  {% endif %}
+  {% if page.channel %}
+  "creator": {
+    "@type": "Organization",
+    "name": "{{ page.channel }}"
+  },
+  {% endif %}
+  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  {% if page.total_clips %}
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "ratingCount": "{{ page.total_clips }}"
+  },
+  {% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+{% else %}
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+{% endif %}
+</script>
+
+<!-- Additional JSON-LD for BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}{{ site.baseurl }}/"
+    }
+    {% if page.layout == "attribution" %}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Attributions",
+      "item": "{{ site.url }}{{ site.baseurl }}/attribution/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title | default: page.name }}",
+      "item": "{{ page.url | absolute_url }}"
+    }
+    {% endif %}
+  ]
+}
+</script>

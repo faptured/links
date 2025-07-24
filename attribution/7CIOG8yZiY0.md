@@ -1,10 +1,13 @@
 ---
 layout: attribution
 title: "preview1 - Video Compilation"
+description: "Fashion and style video compilation featuring 219 TikTok clips from boutinelosangeles showcasing BOUTINELA brand clothing and accessories"
 channel: "tiktok/boutinelosangeles"
 total_cells: 3
 total_clips: 219
 video_url: "https://www.youtube.com/watch?v=7CIOG8yZiY0"
+tags: ["fashion", "boutinela", "tiktok", "compilation", "style", "clothing"]
+date: 2025-7-25
 ---
 # preview1 - Video Compilation
 
