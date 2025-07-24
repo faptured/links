@@ -35,7 +35,9 @@ video_url: "https://www.youtube.com/watch?v=7CIOG8yZiY0"
 
 ### Adding Attribution Details (Optional)
 
-If you want to add clip details, just write them below the front matter:
+If you want to add clip details, just write them below the front matter.
+
+**Important:** URLs must use markdown syntax to be clickable:
 
 ```yaml
 ---
@@ -46,15 +48,20 @@ video_url: "https://www.youtube.com/watch?v=7CIOG8yZiY0"
 ## Clips Used
 
 ### Clip 1
-**URL:** https://www.tiktok.com/@user/video/123  
+**URL:** <https://www.tiktok.com/@user/video/123>  
 **Creator:** Username  
 **Title:** Clip Title  
 
 ### Clip 2
-**URL:** https://www.tiktok.com/@user/video/456  
+**URL:** [TikTok Video](https://www.tiktok.com/@user/video/456)  
 **Creator:** Username  
 **Title:** Clip Title  
 ```
+
+**Making URLs Clickable:**
+- Wrap in angle brackets: `<https://example.com>` 
+- Or use link syntax: `[Link Text](https://example.com)`
+- Plain URLs without brackets won't be clickable
 
 ## Features
 

@@ -376,26 +376,32 @@ button {
     color: var(--text-secondary);
 }
 
-/* Style auto-generated links */
-.attribution-content a[target="_blank"] {
+/* Style all links in attribution content */
+.attribution-content a {
     color: #4facfe;
     text-decoration: none;
     transition: all 0.3s ease;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid rgba(79, 172, 254, 0.3);
 }
 
-.attribution-content a[target="_blank"]:hover {
+.attribution-content a:hover {
     color: #00f2fe;
     border-bottom-color: #00f2fe;
     filter: drop-shadow(0 0 10px rgba(79, 172, 254, 0.5));
 }
 
-/* Add external link indicator */
-.attribution-content a[target="_blank"]::after {
+/* External link indicator */
+.attribution-content a[href^="http"]:not([href*="faptured.github.io"])::after {
     content: " ↗";
     font-size: 0.8em;
     opacity: 0.7;
     margin-left: 0.2em;
+}
+
+/* Make URLs that look like links styled even if not wrapped in anchor tags */
+.attribution-content strong + em,
+.attribution-content strong {
+    color: var(--text-primary);
 }
 
 /* Professional spacing */
