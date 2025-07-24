@@ -1,0 +1,28 @@
+title: Attribution Links
+description: Content Attribution Repository
+theme: null
+baseurl: "/links"
+url: "https://faptured.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+
+# Include attribution files
+include:
+  - attribution
+
+# Collections
+collections:
+  attributions:
+    output: true
+    permalink: /attribution/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: "attribution"
+      type: "pages"
+    values:
+      layout: "attribution"

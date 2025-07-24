@@ -1,7 +1,16 @@
+---
+layout: attribution
+title: "preview1 - Video Compilation"
+channel: "tiktok/boutinelosangeles"
+total_cells: 3
+total_clips: 219
+---
+
 # preview1 - Video Compilation
 
 **Channel:** tiktok/boutinelosangeles  
 **Total Cells:** 3  
+**Total Clips:** 219 (73 per cell)
 
 ---
 

@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+
+<section class="intro">
+    <h2>Welcome</h2>
+    <p>This repository maintains attribution information for various content compilations. Each attribution file contains detailed information about the original creators and sources.</p>
+</section>
+
+<section class="attributions">
+    <h2>Available Attributions</h2>
+    <div class="attribution-grid">
+        {% assign attribution_pages = site.pages | where_exp: "page", "page.path contains 'attribution/'" | where_exp: "page", "page.path contains '.md'" %}
+        {% for page in attribution_pages %}
+            {% unless page.path contains 'index' %}
+                <a href="{{ page.url | relative_url }}" class="attribution-card">
+                    <h3>{{ page.title | default: page.name }}</h3>
+                    <div class="attribution-meta">
+                        {% if page.channel %}<span>Channel: {{ page.channel }}</span>{% endif %}
+                        {% if page.total_clips %}<span>{{ page.total_clips }} clips</span>{% endif %}
+                        {% if page.total_cells %}<span>{{ page.total_cells }} cells</span>{% endif %}
+                    </div>
+                    <p class="attribution-description">
+                        Click to view detailed attribution information
+                    </p>
+                </a>
+            {% endunless %}
+        {% endfor %}
+    </div>
+    
+    {% if attribution_pages.size == 0 %}
+        <p style="text-align: center; margin-top: 2rem; color: #666;">No attribution files found. Add markdown files to the attribution/ directory.</p>
+    {% endif %}
+</section>

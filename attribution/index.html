@@ -1,0 +1,43 @@
+---
+layout: default
+title: Attribution Index
+---
+
+<section class="intro">
+    <h2>Attribution Files</h2>
+    <p>Browse through all available attribution files for content compilations.</p>
+</section>
+
+<section class="attributions">
+    <h2>Available Attributions</h2>
+    <div class="attribution-grid">
+        {% for file in site.static_files %}
+            {% if file.path contains '/attribution/' and file.extname == '.md' %}
+                {% assign filename = file.name | remove: '.md' %}
+                <a href="{{ file.path | remove: '.md' | append: '.html' | relative_url }}" class="attribution-card">
+                    <h3>{{ filename }}</h3>
+                    <p class="attribution-description">
+                        Click to view detailed attribution information
+                    </p>
+                </a>
+            {% endif %}
+        {% endfor %}
+        
+        {% assign attribution_pages = site.pages | where_exp: "page", "page.path contains 'attribution/'" | where_exp: "page", "page.path contains '.md'" %}
+        {% for page in attribution_pages %}
+            {% unless page.path contains 'index' %}
+                <a href="{{ page.url | relative_url }}" class="attribution-card">
+                    <h3>{{ page.title | default: page.name }}</h3>
+                    <div class="attribution-meta">
+                        {% if page.channel %}<span>Channel: {{ page.channel }}</span>{% endif %}
+                        {% if page.total_clips %}<span>{{ page.total_clips }} clips</span>{% endif %}
+                        {% if page.total_cells %}<span>{{ page.total_cells }} cells</span>{% endif %}
+                    </div>
+                    <p class="attribution-description">
+                        Click to view detailed attribution information
+                    </p>
+                </a>
+            {% endunless %}
+        {% endfor %}
+    </div>
+</section>
