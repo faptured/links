@@ -1,0 +1,239 @@
+---
+layout: default
+title: Create Attribution
+description: Generate attribution file template with YouTube metadata
+---
+
+<div class="attribution-creator">
+    <h1>Create Attribution File</h1>
+    <p>Enter a YouTube URL to generate an attribution file template with metadata.</p>
+    
+    <div class="creator-form">
+        <label for="youtube-url">YouTube URL:</label>
+        <input type="url" id="youtube-url" placeholder="https://www.youtube.com/watch?v=..." />
+        <button onclick="generateAttribution()">Generate Template</button>
+    </div>
+    
+    <div id="preview" class="preview-section" style="display: none;">
+        <h2>Generated Attribution File</h2>
+        <div class="file-info">
+            <p><strong>Filename:</strong> <span id="filename"></span></p>
+            <p><strong>Save to:</strong> /attribution/<span id="filename-display"></span></p>
+        </div>
+        <pre><code id="generated-content"></code></pre>
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+    </div>
+    
+    <div id="metadata-preview" class="metadata-section" style="display: none;">
+        <h2>Extracted Metadata</h2>
+        <div id="metadata-content"></div>
+    </div>
+</div>
+
+<style>
+.attribution-creator {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    border: 1px solid var(--border-glass);
+    padding: 2.5rem;
+    border-radius: 16px;
+    margin-top: 2rem;
+}
+
+.creator-form {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.creator-form label {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.creator-form input {
+    flex: 1;
+    min-width: 300px;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-glass);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.creator-form input:focus {
+    outline: none;
+    border-color: var(--neon-purple);
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+}
+
+.creator-form button,
+.preview-section button {
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-gradient);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.creator-form button:hover,
+.preview-section button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.preview-section,
+.metadata-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    border: 1px solid var(--border-glass);
+}
+
+.file-info {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+}
+
+.file-info p {
+    margin: 0.25rem 0;
+    color: var(--text-secondary);
+}
+
+.file-info span {
+    color: var(--text-primary);
+    font-family: monospace;
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+code {
+    color: #4facfe;
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 0.9rem;
+}
+
+.metadata-section h3 {
+    color: var(--text-primary);
+    margin-top: 1rem;
+}
+
+.metadata-section p {
+    color: var(--text-secondary);
+    margin: 0.5rem 0;
+}
+
+.success-message {
+    padding: 1rem;
+    background: rgba(79, 172, 254, 0.2);
+    border: 1px solid rgba(79, 172, 254, 0.5);
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: var(--text-primary);
+}
+</style>
+
+<script>
+async function generateAttribution() {
+    const urlInput = document.getElementById('youtube-url');
+    const url = urlInput.value.trim();
+    
+    if (!url) {
+        alert('Please enter a YouTube URL');
+        return;
+    }
+    
+    const videoId = extractVideoId(url);
+    if (!videoId) {
+        alert('Invalid YouTube URL');
+        return;
+    }
+    
+    // Fetch metadata
+    const metadata = await fetchYouTubeMetadata(url);
+    
+    // Generate filename from video ID
+    const filename = `${videoId}.md`;
+    
+    // Generate content
+    const date = new Date().toISOString().split('T')[0];
+    let content = `---
+layout: attribution
+title: "${metadata ? metadata.title : 'Video Compilation'}"
+description: "${metadata ? `Attribution for ${metadata.title}` : 'Video attribution information'}"
+channel: "${metadata ? metadata.author : 'Unknown Channel'}"
+video_url: "${url}"
+date: ${date}
+tags: ["video", "compilation", "attribution"]
+---
+
+# ${metadata ? metadata.title : 'Video Attribution'}
+
+**Channel:** ${metadata ? metadata.author : 'Unknown Channel'}  
+**Video URL:** ${url}
+
+---
+
+## Attribution Details
+
+<!-- Add your attribution content below -->
+
+### Clips
+
+<!-- Example format:
+### Clip 1
+**URL:** https://example.com/video1  
+**Creator:** Creator Name  
+**Title:** Clip Title  
+-->
+`;
+    
+    // Display results
+    document.getElementById('filename').textContent = filename;
+    document.getElementById('filename-display').textContent = filename;
+    document.getElementById('generated-content').textContent = content;
+    document.getElementById('preview').style.display = 'block';
+    
+    if (metadata) {
+        document.getElementById('metadata-content').innerHTML = `
+            <h3>Extracted Information:</h3>
+            <p><strong>Title:</strong> ${metadata.title}</p>
+            <p><strong>Channel:</strong> <a href="${metadata.authorUrl}" target="_blank">${metadata.author}</a></p>
+            <p><strong>Thumbnail:</strong> <img src="${metadata.thumbnail}" style="max-width: 300px; margin-top: 0.5rem; border-radius: 8px;"></p>
+        `;
+        document.getElementById('metadata-preview').style.display = 'block';
+    }
+}
+
+function copyToClipboard() {
+    const content = document.getElementById('generated-content').textContent;
+    navigator.clipboard.writeText(content).then(() => {
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = 'Copied!';
+        button.style.background = 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)';
+        
+        setTimeout(() => {
+            button.textContent = originalText;
+            button.style.background = '';
+        }, 2000);
+    });
+}
+</script>

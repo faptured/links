@@ -1,0 +1,179 @@
+---
+layout: default
+---
+
+<div class="attribution-detail">
+    <div class="attribution-header">
+        <h1 id="page-title">Loading...</h1>
+    </div>
+    
+    <!-- Display YouTube video if video_url is provided -->
+    {% if page.video_url %}
+        {% assign video_id = page.video_url | split: "v=" | last | split: "&" | first %}
+        {% if page.video_url contains "youtu.be/" %}
+            {% assign video_id = page.video_url | split: "youtu.be/" | last | split: "?" | first %}
+        {% endif %}
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/{{ video_id }}" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    {% endif %}
+    
+    <div class="attribution-content" id="attribution-content">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading video information...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+// Auto-generate attribution content from YouTube URL
+document.addEventListener('DOMContentLoaded', async function() {
+    const videoUrl = '{{ page.video_url }}';
+    if (!videoUrl) return;
+    
+    // Fetch YouTube metadata
+    const metadata = await fetchYouTubeMetadata(videoUrl);
+    
+    // Update page title
+    const titleElement = document.getElementById('page-title');
+    if (metadata && metadata.title) {
+        titleElement.textContent = metadata.title;
+        document.title = metadata.title + ' - {{ site.title }}';
+    } else {
+        titleElement.textContent = '{{ page.title | default: "Video Attribution" }}';
+    }
+    
+    // Generate attribution content
+    const contentElement = document.getElementById('attribution-content');
+    let content = `
+        <h1>${metadata ? metadata.title : 'Video Attribution'}</h1>
+        ${metadata ? `<p><strong>YouTube Channel:</strong> <a href="${metadata.authorUrl}" target="_blank" rel="noopener">${metadata.author}</a></p>` : ''}
+        <p><strong>Video URL:</strong> <a href="${videoUrl}" target="_blank" rel="noopener">${videoUrl}</a></p>
+        
+        <hr>
+        
+        <div class="user-content">
+            {{ content | strip }}
+        </div>
+    `;
+    
+    // If no user content provided, add placeholder
+    if (!'{{ content | strip }}'.trim()) {
+        content += `
+            <h2>Attribution Details</h2>
+            <p><em>No additional attribution information provided.</em></p>
+            <p>To add attribution details, edit the markdown file and add content below the front matter.</p>
+        `;
+    }
+    
+    contentElement.innerHTML = content;
+});
+</script>
+
+<style>
+/* Same styles as attribution.html */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    background: var(--card-bg);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.attribution-content h1 {
+    color: var(--text-primary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.attribution-content h2 {
+    color: var(--text-primary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.attribution-content h3 {
+    color: var(--text-secondary);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.attribution-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.attribution-content li {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border-glass);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.attribution-content li:hover {
+    transform: translateX(5px);
+    border-color: rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+}
+
+.attribution-content a {
+    color: #4facfe;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.attribution-content a:hover {
+    color: #00f2fe;
+    text-decoration: underline;
+}
+
+.attribution-content code {
+    background: rgba(255, 255, 255, 0.1);
+    color: #4facfe;
+    padding: 0.125rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.875em;
+    font-family: 'Monaco', 'Menlo', monospace;
+}
+
+.attribution-content strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.attribution-content p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.attribution-content hr {
+    border: none;
+    border-top: 1px solid var(--border-glass);
+    margin: 2rem 0;
+}
+</style>
