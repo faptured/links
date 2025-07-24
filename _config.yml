@@ -1,8 +1,8 @@
 title: Attribution Links
 description: Content Attribution Repository - Comprehensive attribution information for video compilations and creative content
 theme: null
-baseurl: "/links"
-url: "https://faptured.github.io"
+baseurl: ""
+url: "https://attribution.faptured.com"
 
 # SEO Settings
 lang: en_US
