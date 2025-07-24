@@ -11,7 +11,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('.attribution-content a[href^="http"]');
     links.forEach(link => {
-        if (!link.hostname.includes('faptured.github.io')) {
+        if (!link.hostname.includes('links.faptured.com')) {
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
         }

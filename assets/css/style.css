@@ -391,7 +391,7 @@ button {
 }
 
 /* External link indicator */
-.attribution-content a[href^="http"]:not([href*="faptured.github.io"])::after {
+.attribution-content a[href^="http"]:not([href*="links.faptured.com"])::after {
     content: " ↗";
     font-size: 0.8em;
     opacity: 0.7;
