@@ -90,6 +90,12 @@ main {
     padding: 3rem 0;
 }
 
+/* Minimal layout adjustments */
+.minimal-layout main {
+    min-height: calc(100vh - 100px);
+    padding-top: 2rem;
+}
+
 /* Intro section with refined glass morphism */
 .intro {
     background: var(--card-bg);
